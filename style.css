@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: antiquewhite;
+    height: 600px;
+    width: 50%;
+    border: 1px solid black;
+    display: inline;
+    justify-content:space-around 
+}
+.choosePet{
+    width:140px;
+    height: 150px;
+    background-size: cover;
+    cursor:pointer;
+}
+#dogImg{
+    background-image: url(images/dog\ 1.png);
+
+}
+#catImg{
+    background-image: url(images/cat.png);
+    
+}
+#bunnyImg{
+    background-image: url(images/bunny.png);
+    
+}
+#dragonImg{
+    background-image: url(images/bearded-dragon.png);
+    
+}
+#petThumbs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+#dragonImg{
+    margin-left: 30px;
+}
+#yourPet{
+    width: 80%;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.petProperties{
+    display:flex;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#interact{
+    padding: 20px;
+    display: flex;
+    justify-content:center
+}
+
+.interbtn{
+    padding: 20px;
+    margin: 30px;
+    cursor: pointer;
+}
+.barContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #0baaf3;
+    border-radius: 30px;
+    width: 200px;
+    height: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: rgb(190, 183, 183);
+    border-style: ridge;
+    position: relative;
+
+}
+#hungerBar{
+    background-color:rgb(167, 238, 0);
+    border-radius: 30px;
+    height: 100%;
+    width:calc(1% * var(--hunger, 0));
+    max-width: 100%;
+    transition: width 500ms;
+    overflow: hidden;
+    position: absolute;
+}
+
+#bordemBar{
+    background-color:rgb(167, 238, 0);
+    border-radius: 30px;
+    height: 100%;
+    width:calc(1% * var(--bordem, 0));
+    max-width: 100%;
+    transition: width 500ms;
+    overflow: auto;
+}
+#feedPet{
+    /* background: url(images/dog\ food.jpg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+.percentage{
+    font-size: 12px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>CyberPet</title>
+  </head>
+  <body>
+    <main>
+      <div id="pet">
+        <H1>cyberpet V.1</H1>
+      </div>
+      <div id="intro">
+        <p>Hello and welcome to your own virtual Cyber pet. please select the pet you would like!</p>
+        <!-- <button id="dogBTN">Dog</button>
+        <button id="catBTN">Cat</button>
+        <button id="bunnyBTN">Bunny</button>
+        <button id="dragonBTN">Dragon</button> -->
+        <div id="petThumbs">
+          <div id="dogImg" class="choosePet">
+          </div>
+          <div id="catImg" class="choosePet">
+          </div>
+          <div id="bunnyImg" class="choosePet">
+          </div>
+          <div id="dragonImg" class="choosePet">
+          </div>
+        </div>
+      </div>
+      <div id="yourPet"> 
+        <div class="petProperties">
+            <p>Name:</p>
+            <p id="petName"></p>
+        </div>
+        <div class="petProperties">
+            <p>Colour:</p>
+            <p id="petColour"></p> 
+        </div>
+        <div class="petProperties">
+          <p>Species:</p>
+          <p id="petSpecies"></p>
+        </div>
+        <div class="petProperties">
+          <p>Hunger:</p>
+          <p id="petHunger"></p>
+        </div>
+        <div class="petProperties">
+          <p>Boredom:</p>
+          <p id="petBoredom"></p>
+        </div>
+      </div>
+      <div class="barContainer">
+        <div id="hungerBar" >
+        </div>
+        <p id="hungerPercentage" class="percentage"></p>
+      </div>
+      <div class="barContainer">
+        <div id="bordemBar">
+        </div>
+        <p id="boredomPercentage" class="percentage"></p>
+      </div>
+      
+      <div id="interact">
+        <button id="feedPet" class="interbtn">Feed</button>
+        <button id="playPet" class="interbtn" >Play</button>
+        <!-- <button id="progress" class="interbtn" >progress</button> -->
+
+        <!-- <div id="feedPet" class="interbtn">Feed</div>
+        <div  id="playPet" class="interbtn" >Play</div>
+        <div id="progress" class="interbtn" >progress</div> -->
+
+      </div>
+
+    </main>
+
+
+  </body>
+  <script src="cyberpet.js"></script>
+</html>
