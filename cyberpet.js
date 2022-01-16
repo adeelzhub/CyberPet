@@ -62,7 +62,7 @@ function increaseHunger() {
         }else{
             // alert("Your pet is starving")
         }
-    }, 100);
+    }, 1000);
 }
 
 // function increaseBoredom() {
